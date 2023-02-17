@@ -29,13 +29,13 @@ func main() {
 
 	// Calculating the result
 	switch os.Args[2] {
-	case "*":
-		fmt.Println(num1 + num2)
-	case "/":
-		fmt.Println(num1 - num2)
 	case "+":
-		fmt.Println(num1 * num2)
+		fmt.Println(num1 + num2)
 	case "-":
+		fmt.Println(num1 - num2)
+	case "*":
+		fmt.Println(num1 * num2)
+	case "/":
 		fmt.Println(num1 / num2)
 	default:
 		fmt.Println("Please provide valid operator")

@@ -1,0 +1,3 @@
+This program is a command line calculator application written in Golang. It takes three arguments from the user, the first one being a number, the second one being an operator (+, -, *, /) and the third one being another number. It then parses the input strings as float64 numbers and performs the calculation based on the operator provided by the user. Finally, it prints the output of the calculation.
+
+run `go run main.go <num1> <operator> <num2>` to run the program
